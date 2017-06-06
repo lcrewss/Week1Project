@@ -3,6 +3,17 @@ body{
   font-size:15px;
   line-height: 1.5;
   background-color: lightgrey;
+  margin: 20px;
+}
+container h2{
+  float:left;
+}
+.slogan{
+  display: flex;
+  align-items: flex-end;
+  margin: 2px;
+  height: 40px;
+  font-family: Apple Chancery, cursive;
 }
 
 .container{
@@ -48,25 +59,26 @@ header #branding h1{
 
 header nav{
   float:right;
-  margin-top:40px;
-
+  margin-top:20px;
 }
 .mainPic{
   display: flex;
   justify-content: flex-end;
-  margin:20px;
-  padding: 20px;
+  margin:50px;
+  padding: 2px;
+  position: relative;bottom: 0px
 }
 .smallPic{
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  margin:0px;
-  padding: 20px;
+  margin:2px;
+  padding: 2px;
+  position: relative;top: -600px
 }
 
 #bodyPic {
-  min-height: 40px;
+  /*min-height: 4px;*/
+  height: 750px;
   align-items: center;
 }
 .pic1{
@@ -80,12 +92,22 @@ header nav{
 .pic1 img{
   width:90px
 }
+.readMe{
+  float:right;
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px;
+}
+li{
+  list-style-type: none;
+}
 
 footer{
-  padding:2px;
+  padding:1px;
   margin-top: 350px;
   color:white;
   background-color:darkslategrey;
-  text-align:center;
-  border-bottom:yellow 3px solid;
+  text-align:left;
+  border-bottom:yellow 1px solid;
 }
