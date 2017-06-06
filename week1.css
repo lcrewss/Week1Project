@@ -34,6 +34,8 @@ header li{
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
+  border: .5px solid yellow;
+  background: black;
 }
 
 header #branding{
@@ -47,6 +49,7 @@ header #branding h1{
 header nav{
   float:right;
   margin-top:40px;
+
 }
 .mainPic{
   display: flex;
@@ -54,13 +57,13 @@ header nav{
   margin:20px;
   padding: 20px;
 }
-/*.smallPic{
+.smallPic{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin:0px;
   padding: 20px;
-}*/
+}
 
 #bodyPic {
   min-height: 40px;
